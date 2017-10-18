@@ -13,7 +13,10 @@ Template for starting new public PharmGKB projects.
 4. If this is a Java project that's going to use gradle, then also copy:
     * `build.gradle`
     * `pgkb-build.gradle`
+    * `travis.yml` as `.travis.yml` if you plan to use Travis CI
 
+
+Note that the Travis config will send Travis notifications to our Slack #dev channel.
 
 
 ## Gradle-based projects
